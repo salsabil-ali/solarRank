@@ -192,7 +192,11 @@ body {
                 font-size: 20px;
             }
             iframe{
-                width:100%;
+            width:150px;
+            height: 95px;
+            border: none;
+            border-radius: 8px;
+
             }
             a{
                 font-size:10px;
@@ -201,3 +205,23 @@ body {
                 font-size: 12px;
             }
         }
+         @media(max-width: 450px){
+             #plan h1{
+                font-size: 20px;
+            }
+            a{
+                font-size: 7px;
+            }
+            #back-arrow{
+                margin-left: 40px;
+            }
+            #plan{
+                margin-left: 40px;
+            }
+
+         }
+         @media(max-width: 360px){
+            #plan{
+                margin-left: 40px;
+            }
+         }
